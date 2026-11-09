@@ -139,3 +139,7 @@ tests/          unit-тесты (15)
 ## Команда
 
 Проект команды-участника «Инвест. Премаркет», 2026.
+
+* [@karpenko999](https://github.com/karpenko999)
+* [@1ybp](https://github.com/1ybp)
+* [@22129734](https://github.com/22129734)
