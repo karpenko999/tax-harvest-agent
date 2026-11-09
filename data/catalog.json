@@ -1,0 +1,24 @@
+{
+  "_comment": "СИНТЕТИЧЕСКИЙ справочник для демо. Тикеры, эмитенты и цены вымышлены. В продакшене справочник приходит из T-Invest MCP.",
+  "instruments": [
+    {"ticker": "OFZ-A31", "name": "ОФЗ-А 03.2031", "kind": "bond", "price": 790.0, "sector": "Госдолг", "risk_level": 1, "spread_pct": 0.05, "coupon_rate": 7.0, "coupon_freq": 2, "maturity": "2031-03-15"},
+    {"ticker": "OFZ-B31", "name": "ОФЗ-Б 08.2031", "kind": "bond", "price": 768.0, "sector": "Госдолг", "risk_level": 1, "spread_pct": 0.05, "coupon_rate": 6.5, "coupon_freq": 2, "maturity": "2031-08-20"},
+    {"ticker": "OFZ-C33", "name": "ОФЗ-В 05.2033", "kind": "bond", "price": 755.0, "sector": "Госдолг", "risk_level": 1, "spread_pct": 0.06, "coupon_rate": 7.7, "coupon_freq": 2, "maturity": "2033-05-18"},
+    {"ticker": "OFZ-D28", "name": "ОФЗ-Г 06.2028", "kind": "bond", "price": 902.0, "sector": "Госдолг", "risk_level": 1, "spread_pct": 0.04, "coupon_rate": 6.0, "coupon_freq": 2, "maturity": "2028-06-14"},
+    {"ticker": "OFZ-E28", "name": "ОФЗ-Д 09.2028", "kind": "bond", "price": 897.0, "sector": "Госдолг", "risk_level": 1, "spread_pct": 0.04, "coupon_rate": 6.2, "coupon_freq": 2, "maturity": "2028-09-13"},
+    {"ticker": "CORP-K29", "name": "Энергосеть К 2029", "kind": "bond", "price": 962.0, "sector": "Энергетика", "risk_level": 2, "spread_pct": 0.15, "coupon_rate": 13.0, "coupon_freq": 12, "maturity": "2029-04-10"},
+    {"ticker": "CORP-M29", "name": "Генерация М 2029", "kind": "bond", "price": 968.0, "sector": "Энергетика", "risk_level": 2, "spread_pct": 0.18, "coupon_rate": 13.4, "coupon_freq": 12, "maturity": "2029-06-01"},
+    {"ticker": "CORP-L29", "name": "Лизинг Л 2029", "kind": "bond", "price": 972.0, "sector": "Лизинг", "risk_level": 2, "spread_pct": 0.2, "coupon_rate": 14.0, "coupon_freq": 12, "maturity": "2029-02-20"},
+    {"ticker": "CORP-N29", "name": "Лизинг Н 2029", "kind": "bond", "price": 985.0, "sector": "Лизинг", "risk_level": 2, "spread_pct": 0.25, "coupon_rate": 14.4, "coupon_freq": 12, "maturity": "2029-05-15"},
+    {"ticker": "CORP-Q29", "name": "Структурная Q 2029 (для квал.)", "kind": "bond", "price": 990.0, "sector": "Лизинг", "risk_level": 2, "qual_only": true, "spread_pct": 0.2, "coupon_rate": 14.3, "coupon_freq": 12, "maturity": "2029-03-01"},
+    {"ticker": "HY-Z28", "name": "Девелопер Z 2028", "kind": "bond", "price": 930.0, "sector": "Девелопмент", "risk_level": 3, "spread_pct": 0.5, "coupon_rate": 19.0, "coupon_freq": 12, "maturity": "2028-11-20"},
+
+    {"ticker": "OILA", "name": "Нефтяная А", "kind": "share", "price": 150.0, "sector": "Нефтегаз", "risk_level": 2, "lot": 10, "spread_pct": 0.05, "dividend_yield": 11.0, "beta": 1.0},
+    {"ticker": "OILB", "name": "Нефтяная Б", "kind": "share", "price": 480.0, "sector": "Нефтегаз", "risk_level": 2, "lot": 1, "spread_pct": 0.06, "dividend_yield": 10.0, "beta": 1.1},
+    {"ticker": "OILC", "name": "Нефтяная В", "kind": "share", "price": 64.0, "sector": "Нефтегаз", "risk_level": 3, "lot": 100, "spread_pct": 0.3, "dividend_yield": 14.0, "beta": 1.5},
+    {"ticker": "BANKA", "name": "Банк А", "kind": "share", "price": 280.0, "sector": "Финансы", "risk_level": 2, "lot": 10, "spread_pct": 0.03, "dividend_yield": 12.0, "beta": 1.2},
+    {"ticker": "BANKB", "name": "Банк Б", "kind": "share", "price": 30.0, "sector": "Финансы", "risk_level": 2, "lot": 100, "spread_pct": 0.08, "dividend_yield": 11.0, "beta": 1.3},
+    {"ticker": "TECHA", "name": "Технологии А", "kind": "share", "price": 3500.0, "sector": "ИТ", "risk_level": 2, "lot": 1, "spread_pct": 0.05, "dividend_yield": 0.0, "beta": 1.4},
+    {"ticker": "RETA", "name": "Ритейл А", "kind": "share", "price": 2100.0, "sector": "Ритейл", "risk_level": 2, "lot": 1, "spread_pct": 0.06, "dividend_yield": 7.0, "beta": 0.9}
+  ]
+}

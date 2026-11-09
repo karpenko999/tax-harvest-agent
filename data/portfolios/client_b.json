@@ -1,0 +1,16 @@
+{
+  "_comment": "Синтетический клиент: квалинвестор, убытков больше, чем налоговая база, — нужна частичная продажа; FIFO с прибыльным первым лотом.",
+  "client_id": "B",
+  "qualified": true,
+  "account_type": "broker",
+  "realized_securities_result": 300000,
+  "dividends_ytd": 40000,
+  "tax_withheld_ytd": 5200,
+  "commission_rate": 0.0005,
+  "lots": [
+    {"ticker": "CORP-L29", "qty": 3000, "price": 1040.0, "bought": "2025-04-01"},
+    {"ticker": "OILB", "qty": 200, "price": 420.0, "bought": "2025-02-10"},
+    {"ticker": "OILB", "qty": 800, "price": 600.0, "bought": "2025-09-15"},
+    {"ticker": "OFZ-B31", "qty": 2000, "price": 840.0, "bought": "2025-08-01"}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "_comment": "Синтетический клиент: неквал, крупная прибыль за год (ставка 15%), несколько бумажных убытков, одна позиция близка к ЛДВ.",
+  "client_id": "A",
+  "qualified": false,
+  "account_type": "broker",
+  "realized_securities_result": 3100000,
+  "dividends_ytd": 180000,
+  "tax_withheld_ytd": 23400,
+  "commission_rate": 0.0005,
+  "lots": [
+    {"ticker": "OFZ-A31", "qty": 1000, "price": 880.0, "bought": "2025-03-10"},
+    {"ticker": "CORP-K29", "qty": 500, "price": 1010.0, "bought": "2025-06-02"},
+    {"ticker": "OILA", "qty": 4000, "price": 210.0, "bought": "2025-01-20"},
+    {"ticker": "BANKA", "qty": 1500, "price": 330.0, "bought": "2024-02-15"},
+    {"ticker": "TECHA", "qty": 300, "price": 2400.0, "bought": "2023-05-11"},
+    {"ticker": "OFZ-D28", "qty": 2000, "price": 920.0, "bought": "2026-02-03"}
+  ]
+}

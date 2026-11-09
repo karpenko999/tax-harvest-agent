@@ -1,0 +1,14 @@
+{
+  "_comment": "Синтетический клиент: прибыли за год нет — фиксировать убытки бессмысленно, агент не должен беспокоить клиента.",
+  "client_id": "C",
+  "qualified": false,
+  "account_type": "broker",
+  "realized_securities_result": -50000,
+  "dividends_ytd": 20000,
+  "tax_withheld_ytd": 2600,
+  "commission_rate": 0.0005,
+  "lots": [
+    {"ticker": "OFZ-C33", "qty": 500, "price": 820.0, "bought": "2025-07-01"},
+    {"ticker": "BANKB", "qty": 10000, "price": 38.0, "bought": "2025-05-20"}
+  ]
+}
